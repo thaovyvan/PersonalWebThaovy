@@ -1,5 +1,5 @@
 .header a{
-    font-family: "Courier New";
+    font-family: 'Courier New', Courier, monospace;
     padding-top: 5px;
 
     color: #333333;
@@ -88,4 +88,14 @@ body {
 
  .cv:hover {
     color: #ffb3b3;
+ }
+
+ .goodbye {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 10px;
  }
