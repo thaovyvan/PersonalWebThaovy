@@ -1,0 +1,65 @@
+.header a{
+    font-family: "Courier New";
+    padding-top: 5px;
+
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.tv:hover {
+    color: #ffb3b3;
+}
+
+.highlights:hover {
+    color: #ffb3b3;
+}
+
+.tv {
+    padding-left: 10px;
+}
+
+.highlights {
+    padding-right: 10px;
+}
+
+.title {
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    margin: -200px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+
+    border-left: 5px dotted #ffb3b3;
+    padding-left: 10px;
+}
+
+p {
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+body {
+    animation: fadein 2s;
+    background-color: #F7F7F7;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}

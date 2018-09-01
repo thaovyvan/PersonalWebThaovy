@@ -1,0 +1,91 @@
+.header a{
+    font-family: "Courier New";
+    padding-top: 5px;
+
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.tv:hover {
+    color: #ffb3b3;
+}
+
+.highlights:hover {
+    color: #ffb3b3;
+}
+
+.tv {
+    padding-left: 10px;
+}
+
+.highlights {
+    padding-right: 10px;
+}
+
+body {
+    animation: fadein 2s;
+    background-color: #F7F7F7;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.pictureOfMe {
+    text-align: center;
+}
+
+.pictureOfMe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+}
+
+.bodyStuff {
+    font-family: 'Courier New', Courier, monospace;
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -175px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+}
+
+.intro {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: #ffb3b3;
+}
+
+.otherLinks {
+    padding-top: 5px;
+}
+
+.otherLinks a {
+    color: #333333;
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.github:hover {
+    color: #ffb3b3;
+ }
+
+ .linkedin:hover {
+    color: #ffb3b3;
+ }
+
+ .cv:hover {
+    color: #ffb3b3;
+ }
