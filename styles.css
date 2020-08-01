@@ -54,6 +54,9 @@ body {
 }
 
 @media (min-width: 320px) { 
+    .intro {
+        font-size: 16px;
+    }
     .bodyStuff {
         font-family: 'Courier New', Courier, monospace;
         font-size: 13px;
@@ -72,6 +75,9 @@ body {
 }
 
 @media (min-width: 360px) { 
+    .intro {
+        font-size: 16px;
+    }
     .bodyStuff {
         font-family: 'Courier New', Courier, monospace;
 
@@ -85,15 +91,25 @@ body {
 }
 
 @media (min-width: 500px) {
+    .intro {
+        font-size: 19px;
+    }
     .bodyStuff {
         font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
 
         position: absolute;
         height: 200px;
-        width: 500px;
-        margin: -175px 0 0 -250px;
+        width: 400px;
+        margin: -175px 0 0 -200px;
         top: 50%;
         left: 50%;
+    }
+
+    .pictureOfMe img {
+        width: 150px;
+        height: 150px;
+        border-radius: 250px;
     }
 }
 
