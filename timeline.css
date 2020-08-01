@@ -33,16 +33,40 @@
 
 .container {
     font-family: 'Courier New', Courier, monospace;
-
-    position: absolute;
-    height: 825px;
-    width: 400px;
-    margin: -200px 0 0 -200px;
-    top: 50%;
-    left: 50%;
-
     border-left: 5px dotted #ffb3b3;
     padding-left: 10px;
+}
+
+@media (min-width: 320px) {
+    .container {
+        font-family: 'Courier New', Courier, monospace;
+    
+        position: absolute;
+        height: 1000px;
+        width: 290px;
+        margin: -200px 0 0 -145px;
+        top: 50%;
+        left: 50%;
+    
+        border-left: 5px dotted #ffb3b3;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 500px) {
+.container {
+        font-family: 'Courier New', Courier, monospace;
+
+        position: absolute;
+        height: 875px;
+        width: 400px;
+        margin: -200px 0 0 -200px;
+        top: 50%;
+        left: 50%;
+
+        border-left: 5px dotted #ffb3b3;
+        padding-left: 10px;
+    }
 }
 
 p {
